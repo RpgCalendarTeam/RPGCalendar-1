@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
+namespace RPGCalendar.Models
+{
+    public class NoteContext : DbContext
+    {
+        public NoteContext(DbContextOptions<NoteContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<RPGNote> RPGNotes { get; set; }
+    }
+}
