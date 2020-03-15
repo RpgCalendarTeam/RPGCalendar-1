@@ -8,7 +8,14 @@ import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
+import { AccountComponent } from './account/account.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { SignUpComponent } from './sign-up/signup.component';
+import { ComponentHelpComponent } from './component-help/component-help.component';
+import { GameCalendarComponent } from './game-calendar/game-calendar.component';
+import { GameOverviewComponent } from './game-overview/game-overview.component';
+import { PlayerListComponent } from './player-list/player-list.component';
+import { GameListComponent } from './game-list/game-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,15 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    AccountComponent,
+    SignUpComponent,
+    ComponentHelpComponent,
+    FetchDataComponent,
+    GameCalendarComponent,
+    GameOverviewComponent,
+    PlayerListComponent,
+    GameListComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -24,8 +39,13 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: 'gameoverview', component: GameOverviewComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'account', component: AccountComponent },
+      { path: 'sign-up', component: SignUpComponent },
+      { path: 'help', component: ComponentHelpComponent },
+      { path: "gamelist", component: GameListComponent }
     ])
   ],
   providers: [],
