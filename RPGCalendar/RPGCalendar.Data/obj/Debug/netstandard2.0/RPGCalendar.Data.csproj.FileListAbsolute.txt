@@ -1,0 +1,8 @@
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\bin\Debug\netstandard2.0\RPGCalendar.Data.deps.json
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\bin\Debug\netstandard2.0\RPGCalendar.Data.dll
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\obj\Debug\netstandard2.0\RPGCalendar.Data.csprojAssemblyReference.cache
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\obj\Debug\netstandard2.0\RPGCalendar.Data.AssemblyInfoInputs.cache
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\obj\Debug\netstandard2.0\RPGCalendar.Data.AssemblyInfo.cs
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\bin\Debug\netstandard2.0\RPGCalendar.Data.pdb
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\obj\Debug\netstandard2.0\RPGCalendar.Data.dll
+C:\Users\happy\Desktop\RPGCalendar\RPGCalendar\RPGCalendar.Data\obj\Debug\netstandard2.0\RPGCalendar.Data.pdb
